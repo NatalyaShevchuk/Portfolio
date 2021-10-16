@@ -1,0 +1,179 @@
+* {
+    font-family: 'Heebo', sans-serif;
+    color: #21243D;
+}
+
+.navbar>.container-md{
+    justify-content: end;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+li  {
+    font-size: 20px;
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link {
+ color: #000;
+ padding-right: 25px;
+}
+h1 {
+    font-size: 44px;
+    margin-top: 164px; 
+}
+h2 {
+    font-size: 26px;
+}
+.normal-text {
+    margin-bottom: 38px;
+    margin-top: 30px;
+}
+.man {
+    margin-top: 154px;
+    max-width: 100%;
+}
+.btn {
+    width: 208px;
+    height: 47px;
+    border-radius: 2px;
+    background-color: #FF6464;
+    margin-bottom: 71px;
+} 
+.fon {
+    background: url(/images/Rectangle.jpg) repeat center/cover #EDF7FA;
+   
+}
+
+.card-body p:first-of-type{
+    margin: 25px 0 10px;
+    font-size: 18px;
+}
+.recent-post {
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+.two-card {
+    max-width: 418px;
+    padding-left: 26px;
+}
+
+.text-30 {
+    font-size: 30px;
+}
+.number-date {
+    color: #fff;
+    font-size: 18px;
+    background-color: #142850;
+  
+}
+.name {
+    color: #8695A4;
+    font-size: 20px;
+    padding-left: 26px;
+}
+.icon img {
+    margin: 83px 35px 26px 0;
+    
+}
+footer img:nth-child(4){
+    margin-right: 0;
+}
+footer p {
+    margin-bottom: 54px;
+}
+
+/* media */
+
+@media (max-width: 991px){
+    .text-block  {
+        padding-left: 70px ;
+    }
+}
+
+@media (max-width: 768px) {
+   .order-text {
+    order: 2;
+    }
+ .man, .btn, .foto-centre-block {
+    display: block;
+    margin: 0 auto;
+    
+    }
+    .man {
+        margin-top: 83px;
+    }
+    h1 {
+        margin-top: 34px;
+    }
+    h1, .normal-text, .recent-post {
+        text-align: center;
+    }
+    .normal-text {
+        margin-bottom: 27px;
+    }
+    .fon {
+        margin-top: 58px;
+    }
+    p > a {
+        display: none;
+    }
+   .card-fon {
+       margin-bottom: 30px;
+   }
+   .card-fon-one {
+       margin-bottom: 0 !important;
+   }
+   .foto-centre-block {
+       width: 339px;
+   }
+   .text-block {
+       padding-top: 20px;
+   }
+   .navbar-toggler {
+    z-index: 20;
+}
+.navbar-collapse{
+    position: absolute;
+    background-color: #EDF7FA;
+    padding: 10px;
+    top: 9px;
+    width: 95%;
+    border-radius: 5px;
+    }
+}
+@media (max-width: 498px) {
+    h1 {
+        font-size: 32px;
+    }
+    .recent-post {
+        font-size: 18px;
+    }
+    h2, .text-30 {
+        font-size: 22px;
+    }
+    .card-body p:first-of-type, .name, .number-date {
+        font-size: 16px;
+    }
+    .text-block  {
+        padding-left: 60px ;
+    }
+
+}
+@media (max-width: 440px) {
+    .text-block  {
+        padding-left: 40px ;
+    }
+}
+@media (max-width: 400px) {
+    .text-block  {
+        padding-left: 10px ;
+    }
+    h1 {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .normal-text {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
